@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    background:url(images/player.jpeg);
+    background-position:center;
+    background-size: cover;
+    font-family: 'cursed-timer-ulil-regular', sans-serif;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    background-color: aliceblue;
+    border: solid 2px darkorange;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+   font-size: 18px;
+   font-weight: bolder;
+   margin:auto;
+    
+}
+
+
+
+#score-home,#score-guest {
+    background: #1C0C0A;
+    font-size: 90px;
+    color: #DA502D;
+    width: 120px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 12px;
+}
